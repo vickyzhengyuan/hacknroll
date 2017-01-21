@@ -12,6 +12,7 @@
 		0B3197B01E335904007EE411 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3197AE1E335904007EE411 /* Main.storyboard */; };
 		0B3197B21E335904007EE411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3197B11E335904007EE411 /* Assets.xcassets */; };
 		0B3197B51E335904007EE411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3197B31E335904007EE411 /* LaunchScreen.storyboard */; };
+		0B3197BD1E337901007EE411 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3197BC1E337901007EE411 /* EventTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0B3197B11E335904007EE411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B3197B41E335904007EE411 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B3197B61E335904007EE411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3197BC1E337901007EE411 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0B3197AA1E335904007EE411 /* AppDelegate.swift */,
 				0B3197AC1E335904007EE411 /* ViewController.swift */,
+				0B3197BC1E337901007EE411 /* EventTableViewController.swift */,
 				0B3197AE1E335904007EE411 /* Main.storyboard */,
 				0B3197B11E335904007EE411 /* Assets.xcassets */,
 				0B3197B31E335904007EE411 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B3197AD1E335904007EE411 /* ViewController.swift in Sources */,
+				0B3197BD1E337901007EE411 /* EventTableViewController.swift in Sources */,
 				0B3197AB1E335904007EE411 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
